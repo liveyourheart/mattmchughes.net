@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+  margin: 0px;
+}
+body {
+  height: 100%;
+  background: #303030 url('../assets/VjR0uZa.jpg') center center no-repeat;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: Helvetica;
+}
+
+
+@media only screen and (min-width: 801px) {
+    body {
+        background-size: auto;
+    }
+}
+
+
+a {
+  color: white;
+}
+a: visited {
+  color: white;
+}
+.title {
+  text-align: center;
+  font-size: 500%;
+  margin-top: 10%;
+}
+.quote-container {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 50px;
+}
+.author {
+  margin-top: 15px;
+}
+.button {
+  padding: 2px;
+  border-radius: 10px;
+  border: 3px solid;
+  text-align: center;
+  width: max-content;
+  border-color: background-color: rgba(255, 255, 255, .2);
+  color: rgba(255, 255, 255, .2);
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+}
+footer {
+  bottom: 0;
+  text-align: center;
+  postion: absolute;
+  margin-top: 30px;
+}

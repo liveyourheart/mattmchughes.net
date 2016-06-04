@@ -1,0 +1,49 @@
+body{
+  color: white;
+  text-align: center;
+  -webkit-transition: background-color 1s, -webkit-transform 1s;
+    transition: background-color 1s, transform 1s;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+}
+
+#wrapper{
+  text-align: center;
+
+}
+
+.clock{
+  font-size: 500%;
+  margin-top: 250px;
+  font-weight: 500;
+}
+
+.title{
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.hex{
+  margin-top: 50px;
+}
+
+footer{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  position:fixed;
+  bottom: 50px;
+}
+
+a{
+  color: white;
+}
+
+a: visited{
+  color: white;
+}
+
+a: hover{
+  color: #AEAEAE;
+}

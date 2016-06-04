@@ -1,0 +1,58 @@
+body{
+ background-color: #AEAEAE;
+}
+
+.btn{
+
+    width: 50px;
+    margin-top: 15px;
+    color: darkblue;
+    font-weight: 500;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.add{
+
+    height: 83px;
+    position: fixed;
+    margin-left: 5px;
+}
+
+.calc-container{
+
+    width: 280px;
+    background-color: darkblue;
+    padding: 25px;
+    margin-top: 75px;
+    border-radius: 5px;
+}
+
+.row{
+
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.title{
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    color: white;
+    font-size: 125%;
+}
+
+#display{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+footer{
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}

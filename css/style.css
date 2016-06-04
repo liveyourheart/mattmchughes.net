@@ -1,0 +1,179 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body{
+  background-color: #071427;
+  color: white;
+}
+
+h1{
+  text-shadow: 2px 2px #fff;
+  font-weight: 800;
+  font-size: 700%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.my-name{
+  font-size: 800%;
+  font-family: 'Yellowtail', cursive;
+
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.navy{
+  background-color: #071427;
+  color: white;
+}
+
+.navy-text{
+  color: #071427 !important;
+}
+
+.right a:hover{
+  color: #fff !important;
+}
+
+.button-collapse {
+  color: #fff;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 20%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+  h1{
+    font-size: 400%;
+  }
+  .my-name{
+    font-size: 600%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  h1{
+    font-size: 350%;
+  }
+
+  .my-name{
+    font-size: 350%;
+  }
+
+  .icon{
+    font-size: 36px !important;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.card-title{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.project-title{
+
+}
+
+.school{
+  display: inline;
+  background-color: #fff;
+  padding: 2px;
+  height: 100%;
+  width: 100%;
+  margin-top: 50%;
+
+}
+
+.orange-block{
+  background-color: #E65100;
+  width: 100%;
+  border-bottom: 5px solid #fff;
+}
+
+.icon{
+  text-align: center;
+  font-size: 96px;
+}
+
+.icon a:hover{
+
+  text-shadow: 3px 3px #E65100;
+}
+
+.copyright{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.job-resp{
+  list-style-type: square;
+  margin-left: 15px;
+}
+
+footer.page-footer {
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.icon a{
+  color: #fff;
+}
+
+.tech-list{
+
+  padding-top: 15px;
+}
+
+.collapsible-header a{
+  color: #fff;
+}
+
+.collapsible-header a:hover{
+  color: #071427;
+}
+
+#git-icon:hover{
+  color: #fff !important;
+}
+
+#me-img{
+
+}
