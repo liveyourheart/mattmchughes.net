@@ -3,7 +3,6 @@
 
     var fadeIn = function(el){
       $(el).fadeIn();
-      console.log('this is firing');
     };
 
     $('.button-collapse').sideNav();
